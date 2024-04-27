@@ -1,0 +1,87 @@
+[
+    {
+        "id":"1",
+      "image": "https://i.ibb.co/tH7xgw8/digital-art-lion-jungle-818056-2170.jpg",
+      "tourists_spot_name": "Sundarban",
+      "country_Name": "Bangladesh",
+      "location": "Khulna Division",
+      "short_description": "The largest mangrove forest in the world.",
+      "average_cost": "$500",
+      "seasonality": "All year",
+      "travel_time": "5 days",
+      "totalVisitorsPerYear": 50000,
+      "User_Email": "user1@example.com",
+      "User_Name": "John Doe"
+    },
+    {
+        "id":"2",
+      "image": "https://i.ibb.co/9qqktnR/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand.jpg",
+      "tourists_spot_name": "Bangkok",
+      "country_Name": "Thailand",
+      "location": "Central Thailand",
+      "short_description": "Vibrant city known for ornate shrines and vibrant street life.",
+      "average_cost": "$1000",
+      "seasonality": "All year",
+      "travel_time": "3 days",
+      "totalVisitorsPerYear": 1000000,
+      "User_Email": "user2@example.com",
+      "User_Name": "Jane Smith"
+    },
+    {
+        "id":"3",
+      "image": "https://i.ibb.co/jfBk66x/bali-is-most-beautiful-place-world-954226-20582.jpg",
+      "tourists_spot_name": "Bali",
+      "country_Name": "Indonesia",
+      "location": "Bali Province",
+      "short_description": "Famous for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs.",
+      "average_cost": "$800",
+      "seasonality": "All year",
+      "travel_time": "7 days",
+      "totalVisitorsPerYear": 800000,
+      "User_Email": "user3@example.com",
+      "User_Name": "Alice Johnson"
+    },
+    {
+        "id":"4",
+      "image": "https://example.com/image4.jpg",
+      "tourists_spot_name": "Kuala Lumpur",
+      "country_Name": "Malaysia",
+      "location": "Kuala Lumpur",
+      "short_description": "Capital city known for its modern skyline, Petronas Twin Towers, and shopping.",
+      "average_cost": "$700",
+      "seasonality": "All year",
+      "travel_time": "4 days",
+      "totalVisitorsPerYear": 300000,
+      "User_Email": "user4@example.com",
+      "User_Name": "Bob Brown"
+    },
+    {
+        "id":"5",
+      "image": "https://example.com/image5.jpg",
+      "tourists_spot_name": "Ha Long Bay",
+      "country_Name": "Vietnam",
+      "location": "Quang Ninh Province",
+      "short_description": "UNESCO World Heritage Site known for its emerald waters and thousands of towering limestone islands topped with rainforests.",
+      "average_cost": "$600",
+      "seasonality": "All year",
+      "travel_time": "6 days",
+      "totalVisitorsPerYear": 700000,
+      "User_Email": "user5@example.com",
+      "User_Name": "Emma Wilson"
+    },
+    {
+        "id":"6",
+      "image": "https://example.com/image6.jpg",
+      "tourists_spot_name": "Angkor Wat",
+      "country_Name": "Cambodia",
+      "location": "Siem Reap Province",
+      "short_description": "Largest religious monument in the world, originally constructed as a Hindu temple for the Khmer Empire.",
+      "average_cost": "$400",
+      "seasonality": "All year",
+      "travel_time": "5 days",
+      "totalVisitorsPerYear": 200000,
+      "User_Email": "user6@example.com",
+      "User_Name": "Michael Johnson"
+    }
+  ]
+  
