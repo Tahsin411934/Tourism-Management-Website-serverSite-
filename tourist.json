@@ -43,7 +43,7 @@
     },
     {
         "id":"4",
-      "image": "https://example.com/image4.jpg",
+      "image": "https://i.ibb.co/F0Vb16w/pexels-umaraffan499-22804.jpg",
       "tourists_spot_name": "Kuala Lumpur",
       "country_Name": "Malaysia",
       "location": "Kuala Lumpur",
@@ -57,7 +57,7 @@
     },
     {
         "id":"5",
-      "image": "https://example.com/image5.jpg",
+      "image": "https://i.ibb.co/4fW34rr/pexels-preciousvietnam-2847871.jpg",
       "tourists_spot_name": "Ha Long Bay",
       "country_Name": "Vietnam",
       "location": "Quang Ninh Province",
@@ -71,7 +71,7 @@
     },
     {
         "id":"6",
-      "image": "https://example.com/image6.jpg",
+      "image": "https://i.ibb.co/mBzk1f9/pexels-daniel-lienert-399431-1089302.jpg",
       "tourists_spot_name": "Angkor Wat",
       "country_Name": "Cambodia",
       "location": "Siem Reap Province",
