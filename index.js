@@ -58,6 +58,12 @@ async function run() {
         res.send(result)
     })
    
+    app.get("/touristSpot/:id",async(req,res)=>{
+      const id= req.params.id;
+      const quary = {_id: new ObjectId(id)}
+        const result= await touristSpots.deleteOne(quary);
+        res.send(result)
+    })
 
   
     // Send a ping to confirm a successful connection
