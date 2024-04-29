@@ -59,14 +59,27 @@ async function run() {
     })
    
     app.delete("/touristSpot/:id", async (req, res) => {
-    
         const id = req.params.id;
         const query = { _id: new ObjectId(id) };
         const result = await touristSpots.deleteOne(query);
         res.send(result)
     })
     
-    
+  app.put("/touristSpot/:id",async (req, res) => {
+    const id = req.params.id;
+    const tourist_Spot= req.body;
+    console.log(id,tourist_Spot)
+    const filter = { _id: new ObjectId(id) };
+    const options = {upset: true};
+    const updateSpot = {
+      $set: {
+        country_name: tourist_Spot.country_name,
+        average_cost: tourist_Spot.average_cost
+      }
+    }
+    const result = await touristSpots.updateOne(filter,updateSpot,options);
+    res.send(result)
+})
 
   
     // Send a ping to confirm a successful connection
