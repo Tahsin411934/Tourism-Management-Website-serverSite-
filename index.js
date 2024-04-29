@@ -74,7 +74,14 @@ async function run() {
     const updateSpot = {
       $set: {
         country_name: tourist_Spot.country_name,
-        average_cost: tourist_Spot.average_cost
+        tourists_spot_name: tourist_Spot.tourists_spot_name,
+        location: tourist_Spot.location,
+        average_cost: tourist_Spot.average_cost,
+        seasonality: tourist_Spot.seasonality,
+        travel_time: tourist_Spot.travel_time,
+        total_visitors_per_year: tourist_Spot.total_visitors_per_year,
+        image: tourist_Spot.image,
+        short_description: tourist_Spot.short_description,
       }
     }
     const result = await touristSpots.updateOne(filter,updateSpot,options);
