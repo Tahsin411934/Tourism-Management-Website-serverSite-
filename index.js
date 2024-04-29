@@ -28,8 +28,26 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     // await client.connect();
+
     const touristSpots = client.db("touristSpotsDB").collection("AddedTouristSpots");
+    const CountriesDB = client.db("touristSpotsDB").collection("Countries");
      
+// COUNTRIESDB
+     app.get("/countries",async(req,res)=>{
+        const cursor= CountriesDB.find();
+        const result= await cursor.toArray();
+        res.send(result)
+    })
+
+     app.get("/touristSpot/:country_name",async(req,res)=>{
+      const country_name = req.params.country_name;
+      const query = { country_name: country_name }; 
+        const result = await touristSpots.find(query).toArray();
+      res.send(result);
+    })
+
+
+
     app.get("/touristSpotByEmail/:email", async (req, res) => {
       const email = req.params.email;
       const query = { email: email }; 
