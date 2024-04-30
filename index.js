@@ -78,14 +78,14 @@ async function run() {
         res.send(result)
     })
    
-    app.delete("/touristSpot/:id", async (req, res) => {
+    app.delete("/touristSpots/:id", async (req, res) => {
         const id = req.params.id;
         const query = { _id: new ObjectId(id) };
         const result = await touristSpots.deleteOne(query);
         res.send(result)
     })
     
-  app.put("/touristSpot/:id",async (req, res) => {
+  app.put("/touristSpots/:id",async (req, res) => {
     const id = req.params.id;
     const tourist_Spot= req.body;
     console.log(id,tourist_Spot)

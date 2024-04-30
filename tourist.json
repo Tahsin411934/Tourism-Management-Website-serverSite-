@@ -1,87 +1,86 @@
 [
-    {
-        "id":"1",
+  {
+      "id": "1",
       "image": "https://i.ibb.co/tH7xgw8/digital-art-lion-jungle-818056-2170.jpg",
       "tourists_spot_name": "Sundarban",
       "country_Name": "Bangladesh",
       "location": "Khulna Division",
-      "short_description": "The largest mangrove forest in the world.",
+      "short_description": "The Sundarbans mangrove forest, one of the largest such forests in the world (140,000 ha), lies on the delta of the Ganges, Brahmaputra, and Meghna rivers on the Bay of Bengal. It is adjacent to the border of India’s Sundarbans World Heritage site inscribed in 1987. The site is intersected by a complex network of tidal waterways, mudflats, and small islands of salt-tolerant mangrove forests, and presents an excellent example of ongoing ecological processes. The area is known for its wide range of fauna, including 260 bird species, the Bengal tiger, and other threatened species such as the estuarine crocodile and the Indian python.",
       "average_cost": "$500",
       "seasonality": "All year",
       "travel_time": "5 days",
       "totalVisitorsPerYear": 50000,
       "User_Email": "user1@example.com",
       "User_Name": "John Doe"
-    },
-    {
-        "id":"2",
+  },
+  {
+      "id": "2",
       "image": "https://i.ibb.co/9qqktnR/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand.jpg",
       "tourists_spot_name": "Bangkok",
       "country_Name": "Thailand",
       "location": "Centr Thailand",
-      "short_description": "Vibrant city known for ornate shrines and vibrant street life.",
+      "short_description": "Bangkok is the capital and most populous city of Thailand. It is known in Thai as Krung Thep Maha Nakhon or simply Krung Thep. The city occupies 1,568.7 square kilometers in the Chao Phraya River delta in central Thailand and has a population of over eight million, or 12.6 percent of the country's population. Over fourteen million people (22.2 percent) lived within the surrounding Bangkok Metropolitan Region, making Bangkok an extreme primate city, significantly dwarfing Thailand's other urban centers in both size and importance to the national economy.",
       "average_cost": "$1000",
       "seasonality": "All year",
       "travel_time": "3 days",
       "totalVisitorsPerYear": 1000000,
       "User_Email": "user2@example.com",
       "User_Name": "Jane Smith"
-    },
-    {
-        "id":"3",
+  },
+  {
+      "id": "3",
       "image": "https://i.ibb.co/jfBk66x/bali-is-most-beautiful-place-world-954226-20582.jpg",
       "tourists_spot_name": "Bali",
       "country_Name": "Indonesia",
       "location": "Bali Province",
-      "short_description": "Famous for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs.",
+      "short_description": "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. Located east of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan. The provincial capital, Denpasar, is the most populous city in the Lesser Sunda Islands and the second-largest, after Makassar, in Eastern Indonesia. Bali is Indonesia's main tourist destination, with a significant rise in tourism since the 1980s. Tourism-related business makes up 80% of its economy. It is renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music. The Indonesian International Film Festival is held every year in Bali. Bali is part of the Coral Triangle, the area with the highest biodiversity of marine species. In this area alone, over 500 reef-building coral species can be found. For comparison, this is about seven times as many as in the entire Caribbean. There is a wide range of dive sites with high-quality reefs, all with their specific attractions. Many sites can have strong currents and swell, so diving without a knowledgeable guide is inadvisable.",
       "average_cost": "$800",
       "seasonality": "All year",
       "travel_time": "7 days",
       "totalVisitorsPerYear": 800000,
       "User_Email": "user3@example.com",
       "User_Name": "Alice Johnson"
-    },
-    {
-        "id":"4",
+  },
+  {
+      "id": "4",
       "image": "https://i.ibb.co/F0Vb16w/pexels-umaraffan499-22804.jpg",
       "tourists_spot_name": "Kuala Lumpur",
       "country_Name": "Malaysia",
       "location": "Kuala Lumpur",
-      "short_description": "Capital city known for its modern skyline, Petronas Twin Towers, and shopping.",
+      "short_description": "Kuala Lumpur, officially the Federal Territory of Kuala Lumpur and colloquially referred to as KL, is a federal territory and the capital city of Malaysia. It is the largest city in Malaysia, covering an area of 243 km2 (94 sq mi) with an estimated population of 1.73 million as of 2016. Greater Kuala Lumpur, also known as the Klang Valley, is an urban agglomeration of 7.564 million people as of 2018. It is among the fastest growing metropolitan regions in Southeast Asia, in both population and economic development.",
       "average_cost": "$700",
       "seasonality": "All year",
       "travel_time": "4 days",
       "totalVisitorsPerYear": 300000,
       "User_Email": "user4@example.com",
       "User_Name": "Bob Brown"
-    },
-    {
-        "id":"5",
+  },
+  {
+      "id": "5",
       "image": "https://i.ibb.co/4fW34rr/pexels-preciousvietnam-2847871.jpg",
       "tourists_spot_name": "Ha Long Bay",
       "country_Name": "Vietnam",
       "location": "Quang Ninh ",
-      "short_description": "UNESCO World Heritage Site known for its emerald waters and thousands of towering limestone islands topped with rainforests.",
+      "short_description": "Ha Long Bay, in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped with rainforests. Junk boat tours and sea kayak expeditions take visitors past islands named for their shapes, including Stone Dog and Teapot islets. The region is popular for scuba diving, rock climbing, and hiking, particularly in mountainous Cát Bà National Park.",
       "average_cost": "$600",
       "seasonality": "All year",
       "travel_time": "6 days",
       "totalVisitorsPerYear": 700000,
       "User_Email": "user5@example.com",
       "User_Name": "Emma Wilson"
-    },
-    {
-        "id":"6",
+  },
+  {
+      "id": "6",
       "image": "https://i.ibb.co/mBzk1f9/pexels-daniel-lienert-399431-1089302.jpg",
       "tourists_spot_name": "Angkor Wat",
       "country_Name": "Cambodia",
       "location": "Siem Reap ",
-      "short_description": "Largest religious monument in the world, originally constructed as a Hindu temple for the Khmer Empire.",
+      "short_description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world by land area, on a site measuring 162.6 hectares. Originally constructed as a Hindu temple dedicated to the god Vishnu for the Khmer Empire, it was gradually transformed into a Buddhist temple towards the end of the 12th century. It was built by the Khmer King Suryavarman II in the early 12th century in Yaśodharapura, the capital of the Khmer Empire, as his state temple and eventual mausoleum. Breaking from the Shaiva tradition of previous kings, Angkor Wat was instead dedicated to Vishnu. As the best-preserved temple at the site, it is the only one to have remained a significant religious center since its foundation. The temple is at the top of the high classical style of Khmer architecture. It has become a symbol of Cambodia, appearing on its national flag, and it is the country's prime attraction for visitors.",
       "average_cost": "$400",
       "seasonality": "All year",
       "travel_time": "5 days",
       "totalVisitorsPerYear": 200000,
       "User_Email": "user6@example.com",
       "User_Name": "Michael Johnson"
-    }
-  ]
-  
+  }
+]
