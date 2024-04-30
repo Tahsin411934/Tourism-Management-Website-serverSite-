@@ -47,16 +47,18 @@ async function run() {
     })
 
 
-
+//email find
     app.get("/touristSpotByEmail/:email", async (req, res) => {
       const email = req.params.email;
       const query = { email: email }; 
       const result = await touristSpots.find(query).toArray();
       res.send(result);
     });
-    app.get("/touristSpot/:id1",async(req,res)=>{
-      const id1= req.params.id1;
-      const quary = {_id: new ObjectId(id1)}
+
+
+    app.get("/touristSpots/:_id",async(req,res)=>{
+      const _id= req.params._id;
+      const quary = {_id: new ObjectId(_id) }
         const result= await touristSpots.findOne(quary);
         res.send(result)
     })
